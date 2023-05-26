@@ -1,0 +1,112 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Chun Yao Chang (張鈞堯)
+    - name: Date of Birth
+      value: 28th October 1999
+    - name: Languages
+      value: English, Chinese
+
+- title: Education
+  type: time_table
+  contents:
+    - title: M.S. in Computer Science
+      institution: University of California, Los Angeles
+      year: 2023 -
+    - title: B.S. in Computer Science and Information Engineering
+      institution: National Taiwan University
+      year: 2018 - 2022
+      description:
+        - Overall GPA - 4.14/4.3
+        - Ranking - 13/140
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Software Engineer Intern
+      institution: Microsoft
+      year: 2021/07 - 2022/12
+      description:
+        - Implementing a full-stack application to automate the procedure of stress testing, which enables engineers to stress multiple servers simultaneously and monitor the status through rack managers.
+        - Optimized Kusto and MSSQL database procedure to expedite data fetching efficiency by 17% and the amount of data from 10M to 100M+.
+        - Reconstructed the Azure data dashboard to help engineers analyze the Azure hardware event log.
+    - title: IT Intern
+      institution: Funpodium
+      year: 2020/07 - 2020/09
+      description:
+        - Implemented a decision-tree model to determine the order and type of advertising based on user's behavior, which boosted the user return rate by 16%.
+        - Collected application logs from company's apps and constructed a dashboard to visualize the user flows of apps.
+    - title: Section Chief, Wireless Services, Network Administration Division
+      institution: NTU CSIE Network Administration and System Administration Team
+      year: 2020/09 - 2022/06
+      description:
+        - Led a 4-man team to maintain and troubleshoot routers and wireless access points of department CSIE to ensure stable and secure wireless connection.
+        - Managed the ELK stack system in CSIE department to store the event logs from other devices.
+        - Conducted a large-scale documentation update and a cleanup of existed setting of Radius and Zone Director.
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Speech Processing and Machine Learning Lab
+      institution: NTU, Professor Hung-Yi Lee
+      year: 2022/02 - 2023/01
+      description:
+      - Collaborating with <b>Professor Hao Tang, University of Edinburgh</b>.
+      - Member of 2022 Eighth Frederick Jelinek Memorial Summer Workshop in Johns Hopkins University (join virtually).
+      - Researched different compression methods on self-supervised speech models.
+      - Proposed a new model architecture that achieve similar performance to state-of-the-art model while reducing the training time by 30% and VRAM consumption by 50%.
+    - title: Machine Intelligence and Understanding Lab
+      institution: NTU, Professor Yun-Nung (Vivian) Chen
+      year: 2021/02 - 2022/01
+      description:
+        - Researched natural language processing (NLP), with focus on dialogue state tracking.
+        - Leveraged controllable counterfactuals data augmentation to improve accuracy of baseline model by 7% in accuracy.
+        - Investigated the possibility to conduct membership inference attack on NLP translation model.
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: Skull Fracture Detection
+      year: 2022
+      description: Integrated the architecture of YOLO and CenterNet to detect the area of skull fracture, which yielded 64% accuracy in F1 score.
+    - title: Sports Team System
+      year: 2021
+      description: 
+        - Built a full-stack system to manage the badminton team.
+        - Improved the efficiency of the rental of badminton courts.
+    - title: Don’t Touch the White Tile 
+      year: 2021
+      description: 
+        - Built a Java music game from the game of the same name.
+        - Structured the game with objected-oriented design such as open-closed principle to achieve great extensibility.
+    - title: Travel Recommendation Chat Bot
+      year: 2021
+      description: 
+        - Designed a chat bot that recommended user where to travel based on user's input text.
+        - Used Microsoft Bot Framework as backbone and utilized LUIS to provide human-like interaction.
+        - Was sponsored by Microsoft to complete the project after CareerHack hackathon.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2020
+      items: 
+        - Dean's List Award
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
